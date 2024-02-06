@@ -7,3 +7,6 @@
 
 ## Background Color Generator
 - simple background gradient generator
+
+## Simple Clock
+- simple javascript clock

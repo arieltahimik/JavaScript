@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('georgiyev-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.clock {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2em;
+    color: #fff;
+    background: rgba(8, 8, 8, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
