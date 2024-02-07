@@ -10,3 +10,7 @@
 
 ## Simple Clock
 - simple javascript clock
+
+## Temperature Converter
+- from Fahrenheit to Celsius and vice versa
+- with input checking
