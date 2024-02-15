@@ -1,7 +1,7 @@
 # JAVASCRIPT
 
 ## Link to Preview Page For Each Section
-### [Preview Page](https://arieltahimik.github.io/JAVASCRIPT/) - Ctrl+Click to open in a new page
+### [Preview Page](https://arieltahimik.github.io/JavaScript/) - Ctrl+Click to open in a new page
 
 ---
 
