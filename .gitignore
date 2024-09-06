@@ -1,7 +1,9 @@
 .vscode/settings.json
+node_modules/
+
 
 /digital-clock
-/simple-calculator
+/*.json
 /*.js
 *.txt
 19-js-selectors.html
