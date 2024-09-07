@@ -5,6 +5,9 @@
 
 ---
 
+## Lessons
+- Javascript concepts
+
 ## Background Color Generator
 - simple background gradient generator
 
