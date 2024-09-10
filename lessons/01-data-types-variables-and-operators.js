@@ -47,7 +47,9 @@ console.log(8 / 4);
 console.log(3 > 2);
 console.log(2 > 3);
 console.log(10 == 10);
-
+console.log(10 != 10);
+console.log(100 == '100');  // true
+console.log(100 === '100'); // false
 
 /* NUMBER DATA TYPE
 - Foundational data type that represents integers and decimal points
@@ -139,10 +141,12 @@ console.log(test);
 //-----------------------------------------//
 
 /* Global Scope and Functions
- * In JavaScript, scope refers to the visibility of variables. Variables which are defined 
- * outside of a function block have Global scope. This means, they can be seen everywhere in your JavaScript code.
- * Variables which are declared without the let or const keywords are automatically created in the global scope. 
- * This can create unintended consequences elsewhere in your code or when running a function again. 
+ * In JavaScript, scope refers to the visibility of variables. 
+ * Variables which are defined outside of a function block have Global scope. 
+ * This means, they can be seen everywhere in your JavaScript code.
+ * Variables which are declared without the let or const keywords are 
+ * automatically created in the global scope. This can create unintended 
+ * consequences elsewhere in your code or when running a function again. 
  * You should always declare your variables with let or const.
 */
 
