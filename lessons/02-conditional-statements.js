@@ -1,7 +1,6 @@
 // if else
 
 var result = 50;
-// var result = 50;
 
 if(result > 40) {
     console.log('You passed the test');
@@ -9,12 +8,12 @@ if(result > 40) {
     console.log('You did not pass the test');
 }
 
-// if, else if, else
+// if - else if - else
 
-// var place = 'first';
+var place = 'first';
 // var place = 'second';
 // var place = 'third';
-var place = 'fourth';
+// var place = 'fourth';
 
 if (place == 'first') {
     console.log('Gold');
@@ -42,11 +41,11 @@ switch (place) {
 }
 
 
-var age= 10;
+var age = 21;
 
 if (age >= 65) {
     console.log("You get your income from your pension");
-} else if (age < 65 && age >= 18) {
+} else if (age >= 18 && age < 65) {
     console.log("Each month you get a salary");
 } else if (age < 18) {
     console.log("You get an allowance");
@@ -54,7 +53,7 @@ if (age >= 65) {
     console.log("The value of the age variable is not numerical");
 }
 
-var day = "Saturday";
+var day = "Tuesday";
 switch (day) {
     case 'Monday':
         console.log('Moon day');
