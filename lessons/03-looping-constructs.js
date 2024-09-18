@@ -17,19 +17,20 @@ console.log("\n");
 let counter = 3;
 while (counter > 0) {
   console.log(counter);
-  counter = counter - 1;
+  // counter = counter - 1;
+  counter--;
 }
-
 console.log("Go!");
 
 console.log("\n");
 
 var j = 10;
-while (j > 0) {
+while (j > 0) {  
   console.log(j);
-  j = j - 1;
+  j--;
 }
 console.log("Happy New Year");
+
 
 console.log("\n");
 
