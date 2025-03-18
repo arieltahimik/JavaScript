@@ -1,13 +1,19 @@
 const con = document.getElementById("console");
-con.innerHTML="console.log(20, 'Hello', true);";
+con.innerHTML=`
+<pre>
+console.log(20, 'Hello', true);
+</pre>
+`;
 
 const tab = document.getElementById("table");
 tab.innerHTML = `
 <pre>
-  console.table({
+console.table({
   name: 'John',
   email: 'john@not.gmail.com'
-  });
+});
+
+<img src="console-table.png" alt="console.table example" width="400">
 </pre>`;
 
 const cmnt = document.getElementById("cmnt");
