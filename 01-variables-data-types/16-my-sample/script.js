@@ -67,3 +67,14 @@ Data Types
 - Function      -> function sayHello() { console.log('Hello'); }
 </pre>
 `;
+
+const sh = document.getElementById("stackheap");
+sh.innerHTML=`
+<pre>
+Primitive data types are stored in the "stack"
+<i>String | Number | Boolean | Null | Undefined | Symbol | BigInt</i>
+
+Reference types are stored in the "heap" and accessed by reference
+<i>Arrays | Functions | Objects</i>
+</pre>
+`;
