@@ -78,3 +78,25 @@ Reference types are stored in the "heap" and accessed by reference
 <i>Arrays | Functions | Objects</i>
 </pre>
 `;
+
+const conv = document.getElementById("conversion");
+conv.innerHTML=`
+<pre>
+let amount = '100';
+parseInt(amount);
+Number(amount)
+
+amount = 100;
+amount.toString();
+String(amount);
+
+amount = '99.5';
+parseFloat(amount);
+
+amount = 1;
+Boolean(amount)
+
+amount = 0;
+Boolean(amount)
+</pre>
+`;
