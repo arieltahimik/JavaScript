@@ -94,9 +94,34 @@ amount = '99.5';
 parseFloat(amount);
 
 amount = 1;
-Boolean(amount)
+Boolean(amount);
 
 amount = 0;
-Boolean(amount)
+Boolean(amount);
+</pre>
+`;
+
+// Operators
+const op = document.getElementById("operators");
+op.innerHTML=`
+<pre>
+Arithmetic
++  |  -  |  *  |  /  |  %
+
+Assignment
++=  | -=  |  *=  | /=  | %=  | **=
+
+Comparison
+==  |  ===  |  !=  |  !==  |  >  |  <  |  >=  |  <=
+
+Concatenation
+'Hello' + ' ' + 'World';
+
+Exponent
+2 ** 3;
+
+Increment | Decrement
+++  |  --
+x++;  x--;
 </pre>
 `;
