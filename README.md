@@ -1,13 +1,5 @@
 # JAVASCRIPT
 
-## Link to Preview Page For Each Section
-### [Preview Page](https://arieltahimik.github.io/JavaScript/) - Ctrl+Click to open in a new page
-
----
-
-## Lessons
-- Javascript concepts
-
 ## Background Color Generator
 - simple background gradient generator
 
