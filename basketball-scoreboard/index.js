@@ -29,4 +29,6 @@ function newGame() {
     guestPoints = 0;
     homeScore.textContent = 0;
     guestScore.textContent=0;
+    homeScore.style.color = "#F94F6D";    
+    guestScore.style.color = "#F94F6D";
 }
