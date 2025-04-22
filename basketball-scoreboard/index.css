@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: customfont;
     src: url('CursedTimerUlil-Aznm.ttf');
@@ -23,12 +29,14 @@ h3 {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #1B244A;
     border: 5px solid white;
     border-radius: 20px;
-    width: 575px;
-    height: 385px;
+    width: 450px;
+    height: 450px;
+    margin-top: 70px;
 }
 
 .team {
@@ -79,9 +87,36 @@ h3 {
     width: 45px;
     height: 45px;
     cursor: pointer;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     font-family: customfont;
     font-size: 1rem;
 }
+
+.btn:active {
+    position: relative;
+    top: 2px;
+}
+
+
+.controls {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid white;
+}
+
+.ctrl-btn {
+    background-color: transparent;
+    font-size: 1.25rem;
+    color: #9AABD8;
+    /* color: #FEF3C7; */
+    border: 2px solid #FDE68A;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.ctrl-btn:active {
+    position: relative;
+    top: 2px;
+}
+
