@@ -1,0 +1,47 @@
+/* Photo by <a href="https://unsplash.com/@alonsoreyes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alonso Reyes</a> on <a href="https://unsplash.com/photos/white-cruise-ship-under-cloudy-sky-LWFdBz4d6nE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-width: 250px;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    background-image: url('alonso-reyes-LWFdBz4d6nE-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(96,96,96,0.5);
+}
+.container h1 {   
+    position: relative; 
+    z-index: 1;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+.container span {
+    color: #25d555;
+    font-size: 2.5rem;
+}
+@media all and (max-width: 400px) {
+    .container h1 {
+        font-size: 2rem;
+    }
+    .container span {
+        font-size: 1.5rem;
+    }
+}
