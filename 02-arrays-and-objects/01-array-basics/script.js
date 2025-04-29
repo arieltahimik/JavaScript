@@ -16,17 +16,17 @@ x = `My favorite fruit is an ${fruits[2]}`;
 
 x = numbers.length;
 
-fruits[2] = 'pear';
+fruits[2] = 'pear';  // replaced orange
 
-// length is not read-only
+// length is not read-only, you can change it
 // fruits.length = 2;
+// console.log(fruits);  // ['apple', 'grape']
 
-fruits[3] = 'strawberry';
+fruits[3] = 'strawberry';  // added strawberry at the end (index 3)
 
 // Using the length as the index will always add on the the end
 fruits[fruits.length] = 'blueberry';
 fruits[fruits.length] = 'peach';
 
 x = fruits;
-
 console.log(x);
