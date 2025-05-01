@@ -1,3 +1,8 @@
+:root { 
+    --black-color: #000000; 
+    --white-color: #FFFFFF; 
+} 
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -29,16 +34,17 @@ div > h1 {
 nav > p {
   cursor: pointer;
 }
-.pill-black,
-.pill-white {
+
+.sign-up-button,
+.sign-in-button {
   border: 0.5px solid;
   border-radius: 5px;
   text-align: center;
 }
 
-.pill-black {
-  background-color: #000000;
-  color: #ffffff;
+.sign-up-button {
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
 
 footer {
