@@ -25,3 +25,8 @@ button {
     border: none;
     border-radius: 2px;
 }
+
+button:active {
+    position: relative;
+    top:2px;
+}
