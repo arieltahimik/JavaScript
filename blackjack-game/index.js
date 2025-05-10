@@ -11,6 +11,7 @@ let message = "";
 let messageEl = document.getElementById("message-el");
 //let sumEl = document.getElementById("sum-el");
 let sumEl = document.querySelector("#sum-el");
+let cardsEl = document.getElementById("cards-el");
 
 function startGame() {
   if (sum <= 20) {
@@ -23,5 +24,6 @@ function startGame() {
     isAlive = false;
   }  
   messageEl.textContent = message;
+  cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
   sumEl.textContent = "Sum: " + sum;  // `Sum: ${sum}`
 }
