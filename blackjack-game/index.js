@@ -27,3 +27,7 @@ function startGame() {
   cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
   sumEl.textContent = "Sum: " + sum;  // `Sum: ${sum}`
 }
+
+function newGame() {
+  console.log('Drawing a new card from the deck!');
+}
